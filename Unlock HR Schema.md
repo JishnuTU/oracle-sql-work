@@ -4,6 +4,10 @@ Connect to SQL Plus
 
 `sqlplus / as sysdba`
 
+Start your Database Instance : `startup`
+
+Open the PDB orclpbd : `alter pluggable database orclpdb open;`
+
 Execute the below command to unlock the HR Schema
 
 ```sql
