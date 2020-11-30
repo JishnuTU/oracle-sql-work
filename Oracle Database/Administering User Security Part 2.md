@@ -39,7 +39,7 @@ Prerequiste :
 - Listener is up and running
 - Pluggable database `orclpdb` is in open mode
 
-```
+```sql
 --con as sysdba
 show con_name
 
@@ -88,7 +88,7 @@ WHERE ROLE='IUD_EMP'
 ```
 ## Practice SQL as user : john
 
-```
+```sql
 --USER john CONNECTION
 
 select * from session_privs;     
