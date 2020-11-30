@@ -102,13 +102,13 @@ select * from role_sys_privs;
 SELECT * FROM ROLE_TAB_PRIVS
 WHERE ROLE='IUD_EMP'
 
-create table studnet
+create table student
 ( student_id number,
-  studnet_name varchar2(100)
+  student_name varchar2(100)
 );
 
 grant select on
-studnet to public; 
+student to public; 
 
 select * from hr.locations
 
