@@ -1,0 +1,21 @@
+LISTENER = (ADDRESS = (PROTOCOL = TCP)(HOST = dmhost.com)(PORT = 1521))
+
+orcl.com =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = dmhost.com)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = orcl)
+    )
+  )
+  
+orclpdb.com =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = dmhost.com)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = orclpdb)
+    )
+  )
