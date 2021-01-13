@@ -4,7 +4,7 @@ Managing UNDO Data
 
 The Oracle Database server saves the old value (undo data) when a process changes data in a database.
 It stores the data as it exists before modifications.
-Retained at least until the transaction is ended. ( next slide )
+Retained at least until the transaction is ended. 
 
 UNDO Data used to support :
 - Rollback Operations
