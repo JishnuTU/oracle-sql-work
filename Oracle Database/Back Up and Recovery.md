@@ -82,12 +82,14 @@ In order for us to be able and perform point-in-time-recovery, using a combinati
 
 ## Oracle Backup Technologies
 
-**User Managed Hot Back Up**
-The DBA takes periodic backups of the database data files and review logs using operating system commands 
-**Oracle Recovey Manager (RMAN)**
-is a command-line utility that can take database backups for you, and also manage your database backups and perform database recovery (supports incremental database backups )
-**Data Pump**
-Database export-import utility. ( it creates logical exports of your database )
+ - **User Managed Hot Back Up**
+The DBA takes periodic backups of the database data files and review logs using operating system commands. 
+
+- **Oracle Recovey Manager (RMAN)**
+is a command-line utility that can take database backups for you, and also manage your database backups and perform database recovery (supports incremental database backups) .
+
+- **Data Pump**
+Database export-import utility. (it creates logical exports of your database)
 
 
 ## Enabling ARCHIVELOG mode
